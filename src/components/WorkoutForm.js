@@ -21,7 +21,7 @@ const handleSubmit=async(e)=>{
     if(!response.ok){
         setError(json.error)
     }
-    if(!response.ok){
+    else{
         setTitle('')
         setLoad('')
         setReps('')
